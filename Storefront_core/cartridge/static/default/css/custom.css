@@ -201,7 +201,6 @@ a {
 	float: left;
 	width: 50%;
 }
-//jas
 .error-form {
 	background-color: #cebdb3;
     border: 1px solid #990000;
@@ -209,6 +208,17 @@ a {
     color: #990000;
     margin: 0 25px 10px 0;
     padding: 5px;
+}
+.error {
+	background-color: #faeded;
+	border-color: #990000;
+    color: #990000;
+}
+span.error,div.error {
+	background: none;
+}
+.user-panel li a {
+	color: #84bd00;
 }
 @media(max-width:767px) {
 	#primary, #secondary, .login-section > div , .store-section > div {
