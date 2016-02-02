@@ -201,6 +201,14 @@ a {
 	float: left;
 	width: 50%;
 }
+.error-form {
+	background-color: #cebdb3;
+    border: 1px solid #990000;
+    border-radius: .5em;
+    color: #990000;
+    margin: 0 25px 10px 0;
+    padding: 5px;
+}
 @media(max-width:767px) {
 	#primary, #secondary, .login-section > div , .store-section > div {
 		width:100%;
@@ -268,7 +276,6 @@ a {
 		font-size: 1.5em;
 	}
 }
-/*forw*/
 @media(max-width:991px) {
 	.top-banner .mini-cart-total .badge {
 		left: 10px;
